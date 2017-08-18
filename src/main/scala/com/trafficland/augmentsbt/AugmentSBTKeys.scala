@@ -80,6 +80,8 @@ package com.trafficland.augmentsbt
   val installationDirectory = com.trafficland.augmentsbt.rpm.Keys.installationDirectory
   val linuxUserAndGroup = com.trafficland.augmentsbt.rpm.Keys.linuxUserAndGroup
   val installedInitScriptName = com.trafficland.augmentsbt.rpm.Keys.installedInitScriptName
+  val manageDaemonAccounts = com.trafficland.augmentsbt.rpm.Keys.manageDaemonAccounts
+  val scriptTemplates = com.trafficland.augmentsbt.rpm.Keys.scriptTemplates
 
   /* VersionManagementPlugin (from src/main/scala/com/trafficland/augmentsbt/versionmanagement/VersionManagementPlugin.scala) */
   import com.trafficland.augmentsbt.versionmanagement.VersionManagementPlugin
